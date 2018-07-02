@@ -41,7 +41,7 @@ a:hover {
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 60px 50px;
   overflow: hidden;
 }
 .col-narrow {
@@ -55,8 +55,29 @@ a:hover {
 }
 
 
+/* Navigation bar
+-------------------------*/
+nav {
+  text-align: center;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+nav a {
+  display: inline-block;
+  text-decoration:none;
+  padding:15px 20px;
+  font-weight: 700;
+}
+
+
 /* Header and Footer
 -------------------------*/
+header {
+  padding-top: 50px;
+}
+
 header, footer {
   background: #2B2D42;
   color: #8D99AE;
